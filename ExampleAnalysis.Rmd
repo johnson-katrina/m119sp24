@@ -1,0 +1,29 @@
+---
+title: "Example Analysis"
+author: "119 Class"
+date: "2024-04-26"
+output: 
+    html_document:
+      code_folding: hide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Example Analysis
+
+Consider $h(x) = \sqrt{3-x}$. First we evaluate at $x=-4$.
+![](./eval_neg4.jpg)
+We see that $h(-4)=\sqrt{7}$. We can also evaluate approximately in R.
+```{r}
+h <- function(x){sqrt(3-x)}
+h(-4)
+```
+
+We also evaluate $h$ at $x=5$. We see in the work below that the value $h(5)$ is undefined. 
+![](./eval_five.jpg)
+The warning we see in R is because $h(5)$ is an undefined value.
+```{r}
+h(5)
+```
