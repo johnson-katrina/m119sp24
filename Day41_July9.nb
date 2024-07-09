@@ -1,0 +1,59 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 14.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      1434,         51]
+NotebookOptionsPosition[      1053,         36]
+NotebookOutlinePosition[      1482,         53]
+CellTagsIndexPosition[      1439,         50]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"Solve", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"\[Alpha]", "/", "\[Beta]"}], "==", "meanNg"}], ",", 
+     RowBox[{
+      RowBox[{"\[Alpha]", "/", 
+       RowBox[{"\[Beta]", "^", "2"}]}], "==", "varNg"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\[Alpha]", ",", "\[Beta]"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.9294513303845882`*^9, 
+  3.929451357082325*^9}},ExpressionUUID->"d2f6a1dc-5b2d-4e98-9417-\
+783d9b8fa2a8"]
+},
+WindowSize->{808, 747},
+WindowMargins->{{-85, Automatic}, {Automatic, -833}},
+Magnification:>2. Inherited,
+FrontEndVersion->"14.0 for Mac OS X ARM (64-bit) (December 12, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"a9e603dd-7ad4-4b1c-8efa-334a85562eda"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 491, 14, 101, "Input",ExpressionUUID->"d2f6a1dc-5b2d-4e98-9417-783d9b8fa2a8"]
+}
+]
+*)
+
